@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/", "dest": "/static-index.html" },
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/static-index.html" }
+  ]
+}
