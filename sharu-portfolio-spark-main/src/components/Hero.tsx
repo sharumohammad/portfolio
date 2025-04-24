@@ -81,8 +81,7 @@ const Hero = () => {
               Get in Touch
             </Button>
             <Button
-              variant="outline"
-              className="border-2 hover:bg-gradient-to-r hover:from-purple-50 hover:to-blue-50 transition-all duration-300 transform hover:scale-105"
+              className="border-2 border-input bg-background hover:bg-gradient-to-r hover:from-purple-50 hover:to-blue-50 transition-all duration-300 transform hover:scale-105"
               asChild
             >
               <a href="/sharu main CV1.pdf" download>
